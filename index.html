@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap Checking Awards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1 id="main-title">Cap Checking Awards</h1>
+            <p>Голосуйте за лучших из лучших по версии Cap Checking Ratings</p>
+        </header>
+
+        <main>
+            <section id="tracks" class="awards-section">
+                <h2>Лучший трек</h2>
+                <div class="nominees-grid" id="tracks-grid"></div>
+            </section>
+
+            <section id="albums" class="awards-section">
+                <h2>Лучший альбом</h2>
+                <div class="nominees-grid" id="albums-grid"></div>
+            </section>
+            
+            <p>Для программиста: Доделать оформление.</p>
+            <p>UPD: Убери вылезающую херню, когда пять раз кликаешь по оглавлению. Это вообще кто добавил?</p>
+            <section id="artists" class="awards-section">
+                <h2>Лучший артист</h2>
+                <div class="nominees-grid" id="artists-grid"></div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2025 Cap Checking Awards. Все права защищены.</p>
+        </footer>
+    </div>
+
+    <div id="overlay" class="overlay hidden">
+        <div class="modal">
+            <button id="close-modal" class="close-button">&times;</button>
+            <p>К сожалению, наш сервис ещё не запущен</p>
+        </div>
+    </div>
+
+    <div id="secret-overlay" class="overlay hidden">
+        <div class="modal secret-modal">
+            <button id="secret-close-modal" class="close-button">&times;</button>
+            <div id="code-inputs" class="code-container">
+                <input type="text" class="code-input" maxlength="1">
+                <input type="text" class="code-input" maxlength="1">
+                <input type="text" class="code-input" maxlength="1">
+                <input type="text" class="code-input" maxlength="1">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

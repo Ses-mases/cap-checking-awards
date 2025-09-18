@@ -1,0 +1,58 @@
+{
+    "tracks": [
+        {
+            "title": "Я помню",
+            "artist": "Кризис",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/IMG_20250831_223717_304.jpg"
+        },
+        {
+            "title": "psychotic",
+            "artist": "shmaragazlin",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/image_2025-09-06_23-03-39.png"
+        },
+        {
+            "title": "ПЕРЕЗАВОЗ",
+            "artist": "SOLID",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/access_code.jpg"
+        }
+    ],
+    "albums": [
+        {
+            "title": "Мысли вслух",
+            "artist": "Кризис",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/IMG_20250831_223717_304.jpg"
+        },
+        {
+            "title": "oblivion 2",
+            "artist": "shmaragazlin",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/image_2025-09-06_23-03-39.png"
+        },
+        {
+            "title": "Romantic City",
+            "artist": "Кризис",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/covers/romantic_city.jpg"
+        }
+    ],
+    "artists": [
+        {
+            "name": "Кризис",
+            "genre": "Данных нет",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/avatars/public/5a4d434d-9ec6-4360-97d9-9cef73e73b13-1756627269517.jpg"
+        },
+        {
+            "name": "SOLID",
+            "genre": "Данных нет",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/avatars/public/hd_68b61ce35d817.jpg"
+        },
+        {
+            "name": "shmaragazlin",
+            "genre": "Данных нет",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/avatars/public/cf07ce8a-a1d3-430a-a55e-1274f9972b0d-1756639522107.jpg"
+        },
+        {
+            "name": "7xyyy",
+            "genre": "Данных нет",
+            "image": "https://texytgcdtafeejqxftqj.supabase.co/storage/v1/object/public/avatars/public/5041b6d4-42e7-4549-abf9-80e521162a95-1757262207857"
+        }
+    ]
+}
