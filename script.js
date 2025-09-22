@@ -7,12 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const _0xsecretClose = document.getElementById('secret-close-modal');
     const _0xcodeInputs = document.querySelectorAll('.code-input');
     
-    // Переменные сбиты с толку
     const _0xstrings = {
-        pActive: atob('cHJvdG9jb2xBY3RpdmF0ZWQ='), // "protocolActivated"
-        sUserId: atob('c2ltdWxhdGVkVXNlcklk'), // "simulatedUserId"
-        trueVal: atob('dHJ1ZQ=='), // "true"
-        secretCode: atob('R09BVA==') // "GOAT"
+        pActive: atob('cHJvdG9jb2xBY3RpdmF0ZWQ='),
+        sUserId: atob('c2ltdWxhdGVkVXNlcklk'),
+        trueVal: atob('dHJ1ZQ=='),
+        secretCode: atob('R09BVA==')
     };
 
     let _0xclickCounter = 0;
@@ -63,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     localStorage.setItem(_0xstrings.sUserId, userId); 
                 }
 
-                // URL изображений "зашифрованы" путем конкатенации
                 const imgRepo = 'https://i.postimg.cc/';
                 const images = [
                     `${imgRepo}FzZ85Wgy/code-0000-4.png`,
